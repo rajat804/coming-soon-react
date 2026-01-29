@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./CommingSoon.css"; // tumhare existing CSS
-import bgImg from "../img/leaves.jpg";
+// import bgImg from "../img/coming-soon-stay.jpg";
 
 const ComingSoon = () => {
   // Countdown state
@@ -61,13 +61,7 @@ const ComingSoon = () => {
   };
 
   return (
-    <main className="wrap" role="main" aria-labelledby="main-heading" style={{
-      backgroundImage: `url(${bgImg})`,
-      backgroundSize: "cover",
-      backgroundPosition: "center",
-      backgroundRepeat: "no-repeat",
-      // opacity: "0.5",
-    }}>
+    <main className="wrap" role="main" aria-labelledby="main-heading">
       {/* LEFT */}
       <section className="hero" aria-hidden="false">
         <div className="brand" aria-hidden="true">
