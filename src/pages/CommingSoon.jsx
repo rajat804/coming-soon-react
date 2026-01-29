@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./commingSoon.css"; // tumhare existing CSS
+import "./CommingSoon.css"; // tumhare existing CSS
 
 const ComingSoon = () => {
   // Countdown state
