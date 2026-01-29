@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./comingSoon.css"; // tumhare existing CSS
+import "./commingSoon.css"; // tumhare existing CSS
 
 const ComingSoon = () => {
   // Countdown state
@@ -153,7 +153,7 @@ const ComingSoon = () => {
       </aside>
 
       <footer>
-        <div>© {new Date().getFullYear()} lehubitacademy.in</div>
+        <div>© {new Date().getFullYear()}</div>
         <div>Built with ♥ — <span style={{ color: "var(--muted)" }}>Coming Soon Page</span></div>
       </footer>
     </main>
